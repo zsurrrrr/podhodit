@@ -1,0 +1,22 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#5465FF"/>
+<g filter="url(#filter0_i_280_205)">
+<path d="M150 281C222.349 281 281 222.349 281 150C281 77.6507 222.349 19 150 19C77.6507 19 19 77.6507 19 150C19 222.349 77.6507 281 150 281Z" fill="url(#paint0_linear_280_205)"/>
+</g>
+<defs>
+<filter id="filter0_i_280_205" x="19" y="19" width="262" height="262" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="13.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_280_205"/>
+</filter>
+<linearGradient id="paint0_linear_280_205" x1="115.464" y1="51.9351" x2="208.325" y2="244.322" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#ABB2FF"/>
+</linearGradient>
+</defs>
+</svg>
