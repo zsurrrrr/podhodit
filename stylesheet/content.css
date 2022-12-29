@@ -6,9 +6,34 @@ body {
   width: 1920px;
   margin: 0 auto;
   background: #5465FF;
-  height: 6337px;
+  height: 5675px;
   position: relative;
+  cursor: url('../images/cursor.png'),auto;
 }
+
+  ::-webkit-scrollbar {
+  width: 30px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f6ee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3247FF;
+  border-radius: 200px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2033DA;
+  border-radius: 200px;
+}
+
+.фон {
+  opacity: 30%;
+  position:absolute;
+}
+
 
 .фон {
   opacity: 30%;
