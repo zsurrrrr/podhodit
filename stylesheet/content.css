@@ -1,0 +1,537 @@
+@media only screen and (min-width: 1920px) {
+
+html {overflow-x: hidden;}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+  background: #5465FF;
+  height: 6337px;
+  position: relative;
+}
+
+.фон {
+  opacity: 30%;
+  position:absolute;
+}
+
+.container1 {
+  width: 1920px;
+  height: 147px;
+  left: 0px;
+  top: 0px;
+  background: white;
+  position: relative;
+  padding: 31.5px 0;
+}
+* {
+  box-sizing: border-box;
+}
+.row {
+  width: 3773px;
+  height: 84px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 78.18px;
+  font-family: 'Inter';
+  color: #5465FF;
+  display: block;
+  position: absolute;
+  animation: row 7s linear infinite;
+}
+@keyframes row {
+  0% {right: -1920px;}
+  100% {right: calc(100% - 1920px);}
+}
+.row:hover{
+  animation-play-state: paused;
+}
+
+.container2 {
+  width: 1920px;
+  height: 585px;
+  top: -46px;
+  position: relative;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+.stroka{
+  width: 4361px;
+  height: 585px;
+  background:url('../images/stroka.svg');
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  animation: stroka 2s linear infinite;
+}
+
+@keyframes stroka {
+  0% {left: -2300px;}
+  100% {left: calc(100% - 3041px);}
+}
+
+.stroka:hover{
+  animation-play-state: paused;
+} */
+
+.container3{
+  width: 1920px;
+  height: 1500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.block03{
+  width: 1800px;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -90px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.icon00 {
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/flat circle.svg');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.icon00:hover {
+  transition: .5s all;
+  transform: scale(0.5, 0.5);
+}
+
+.icon01 {
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+  background-image: url('../images/blue.svg');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.icon02 {
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/blue1.svg');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+/* .icon02:hover {
+  transition: .5s all;
+  transform: scale(0.5, 0.5);
+} */
+
+.icon03 {
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/white.svg');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.icon04 {
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/cube1.svg');
+  background-repeat: no-repeat;
+}
+
+.icon04:hover{
+  background-image: url('../images/polygon1.svg');
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition: .5s all;
+}
+
+.icon05 {
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/polygon1.svg');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.icon05:hover{
+  background-image: url('../images/cube1.svg');
+  transition-timing-function: ease-in;
+  transition-timing-function: ease-out;
+  transition: .5s all;
+}
+
+.container4{
+  width: 1920px;
+  height: 1200px;
+  margin-top: -10;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+}
+
+.block04{
+  width: 1800px;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 0px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.text{
+  width: 1920px;
+  height: 1200px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 57.83px;
+  font-family: 'Inter';
+  color: white;
+  text-align: justify;
+  display: block;
+  z-index: 1;
+  position: absolute;
+}
+
+.container5 {
+  width: 895px;
+  height: 1087px;
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+
+.cube {
+  width: 700px;
+  height: 700px;
+  background-image: url('../images/cube.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: -272px;
+  margin-left: 72px;
+}
+
+.circle {
+  width: 700px;
+  height: 700px;
+  background-image: url('../images/circle.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: -254px;
+  margin-left: 278.5px;
+}
+
+.wow1 {
+  width: 894px;
+  height: 264px;
+  background-image: url('../images/shtuka verh.svg');
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
+
+.wow2 {
+  width: 894px;
+  height: 264px;
+  background-image: url('../images/shtuka niz.svg');
+  background-repeat: no-repeat;
+  margin-top: -296px;
+}
+
+.container6 {
+  width: 1024px;
+  height: 1087px;
+  margin-left: 895px;
+  margin-top: -1087px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row01 {
+  width: 3000px;
+  height: 59px;
+  top: 23px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 2s linear infinite;
+}
+
+@keyframes row01, row02, row03, row04, row05, row06, row07, row08, row09, row10, row11, row12, row13, row14, row15 {
+  0% {right: 1024px;}
+  100% {right: calc(100% - 1024px);}
+}
+
+.row02 {
+  width: 3000px;
+  height: 59px;
+  top: 95px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  margin-bottom: 11px;
+  color: #5465FF;
+  display: block;
+  position: absolute;
+  animation: row 1s linear infinite;
+}
+
+.row03 {
+  width: 3000px;
+  height: 59px;
+  top: 167px;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 1.5s linear infinite;
+}
+
+.row04 {
+  width: 3000px;
+  height: 59px;
+  top: 239px;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 2.5s linear infinite;
+}
+
+.row05 {
+  width: 3200px;
+  height: 59px;
+  top: 311px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 1.7s linear infinite;
+}
+
+.row06 {
+  width: 3000px;
+  height: 59px;
+  top: 383px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 0.8s linear infinite;
+}
+
+.row07 {
+  width: 3000px;
+  height: 59px;
+  top: 442px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 2.1s linear infinite;
+}
+
+.row08 {
+  width: 3000px;
+  height: 59px;
+  top: 514px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  margin-bottom: 11px;
+  color: #5465FF;
+  display: block;
+  position: absolute;
+  animation: row 1.2s linear infinite;
+}
+
+.row09 {
+  width: 3000px;
+  height: 59px;
+  top: 586px;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 1.3s linear infinite;
+}
+
+.row10 {
+  width: 3000px;
+  height: 59px;
+  top: 658px;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 2.7s linear infinite;
+}
+
+.row11 {
+  width: 3200px;
+  height: 59px;
+  top: 730px;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 1.9s linear infinite;
+}
+
+.row12 {
+  width: 3000px;
+  height: 59px;
+  top: 802px;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 1s linear infinite;
+}
+
+.row13 {
+  width: 3000px;
+  height: 59px;
+  top: 861px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 2.1s linear infinite;
+}
+
+.row14 {
+  width: 3000px;
+  height: 59px;
+  top: 933px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  margin-bottom: 11px;
+  color: #5465FF;
+  display: block;
+  position: absolute;
+  animation: row 1.2s linear infinite;
+}
+
+.row15 {
+  width: 3000px;
+  height: 59px;
+  top: 1005px;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 55px;
+  line-height: 107.1%;
+  font-family: 'Inter';
+  color: #5465FF;
+  position: absolute;
+  display: block;
+  animation: row 1.6s linear infinite;
+}
+
+
+.container7{
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+
+.t01{
+  position: absolute;
+  width: 547px;
+  height: 37px;
+  left: 1121px;
+  top: 160px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 107.1%;
+  color: #FFFFFF;
+}
+
+.star{
+  position: relative;
+  background: url('../images/star.svg');
+  width: 300px;
+  height: 300px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {background: url('../images/star.svg'); left: 0px; top: 0px}
+  25% {background: url('../images/cube1.svg'); left: 1620px; top: 780px}
+  50% {background: url('../images/circle1.svg'); left: 0px; top: 780px}
+  75% {background: url('../images/polygon1.svg'); left: 1620px; top: 0px}
+  100% {background: url('../images/star.svg'); left: 0px; top: 0px}
+}
+
+.star:hover{
+  animation-play-state: paused;
+} */
